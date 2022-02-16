@@ -1,80 +1,182 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harsh Shrivastava</title>
-    <link rel="stylesheet" href="CSS-MySite/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    <style>
+<!-- Required meta tags -->
 
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Harsh Shrivastava</title>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="CSS-MySite/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+/* nav bar */
+.navbar-nav{
+  position: absolute;
+  right:5%;
+}
+.navbar{
+  background-color: rgba(135, 253, 214, 0.459)!important;
+}
+.navbar-brand{
+ position: relative;
+ left: 10px;
+}
+/* profile */
+h1{
+  font-size: 280%;
+}
+h5{
+  font-size: large;
+}
+hr{
+  width: 150px;
+  height: 10px;
+  border-style: dotted;
+  border-width: 10px 0 0 0;
+  border-color: rgb(152, 155, 155);
+  background-color: rgba(135, 253, 214, 0.459)!important;
+}
+
+
+.mountain{
+
+  width:inherit !important;
+}
+
+
+</style>
 </head>
 <body>
-  <img  class="me me2" src="CSS-MySite/me.png" alt="me">
-  <div  style="height: 100px; background:rgba(135, 253, 214, 0.459);"class="navcontainer">
-        <nav>
-            <a href="about.html">ABOUT US</a>
-            <a href="Mydesigns.html">MY DESIGNS</a>
-            <a href="index.html">HOME</a>    
-        </nav> 
-    </div> 
-<div class="externaltopbox">
-    <div class="top">
-        <img class="cloud rightcloud" src="CSS-MySite/cloud.svg" alt="clouds">
-        <h1>I'm Harsh</h1>
-        <hr>
-        <h5 >web designer</h5>  
-       
-        <img class="cloud leftcloud" src="CSS-MySite/cloud.svg" alt="clouds">
-        <div class="mountain">
-            <img class="mountain" src="CSS-MySite/mountain.svg" alt="mountain">
-        </div>
-    </div>
-</div>
-<div class="middle-container">
-    <div class="profile">
-      <img class="me2 helloimg" src="CSS-MySite/me.png" alt="me">
-      <h2>Hello.</h2>
-      <p>Lorem ipsum dolor sit amet, vitae volutpat, dui <br>conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="me2" src="CSS-MySite/paint.png" alt="paint">
-        <h3>Paint</h3>
-        <p>Lorem ipsum dolor sit amet, quis in duis, <br> iaculis  id felis. Consectetuer vestibulum, <br> nunc urna lectus, erat  ligula. Hendrerit nam,<br>  lectus ante, ut lorem eros.</p>
-      </div>
-      <div class="skill-row">
-        <img class="me2" src="CSS-MySite/badminton.png" alt="badminton">
-        <h3>Badminton</h3>
-        <p>Lorem ipsum dolor sit amet,quis in duis,<br>  iaculis id felis.  Consectetuer vestibulum,  <br> nunc urna  lectus, erat ligula. Hendrerit nam,<br> lectus ante, ut lorem eros.</p>
-      </div>
-      <div class="skill-row">
-        <img class="me2" src="CSS-MySite/coding.png" alt="coding">
-        <h3>Coding</h3>
-        <p>Lorem ipsum dolor sit amet, mauris sed<br> consectetuer.  Etiam et eu, bibendum interdum,<br>  lacus quis mauris. Curabitur wisi,<br> quisque vel eu, rutrum nam.</p>
-      </div>
-    </div>
-    <hr>
-    <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-        <p class="contact-me-p">Lorem ipsum dolor sit amet, in quis,aenea<br>n amet. Phasellus sodales, tellus donec dui.<br> </p>
-        <div class="contact-btn">
-            <a class="btn" href="mailto:harshshrivastava096@email.com">CONTACT ME</a>  
-        </div>  
-    </div>
-    </div>
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/harsh-shrivastava-4b5723228">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/HarshSh71314303?t=9-wY2gTzZfcyxHD1vky1QQ&s=09">Twitter</a>
-    <a class="footer-link" href="index.html">Website</a>
-    <p class="footer-p">© Harsh Shrivastava.</p>
+<!-- nav bar  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+  <a class="navbar-brand" href="index.html"><img class="profile"src="CSS-MySite/me.png" alt="me"></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav">
+  <li class="nav-item">
+  <a class="nav-link active" aria-current="page" href="#profile_box">Home</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="#contact_me">Contact</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="#skills_section">My Hobbies</a>
+  </li>
+  </ul>
   </div>
+</div>
+</nav>
+<!-- profile  -->
+
+<center>
+<section id="profile_box">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4 col-lg-4 col-sm-4 col">
+      <img src="CSS-MySite/cloud.svg" alt="clouds">
+    </div>
+    <div class="col-md-4 col-lg-4 col">
+      <h1>I'm Harsh</h1><hr class="hr1">
+    </div>
+    <div class="col-md-4 col-lg-4 col-sm-4 col ">
+    
+    </div>
+    <div class="col-md-12 col-lg-12">
+    <h5>@ web designer</h5>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 col-lg-4 col-sm-4 col">
+    </div>
+    <div class="col-md-4 col-lg-4 col-sm-4 col">
+    </div>
+    <div class="col-md-4 col-lg-4 col-sm-4 col">
+      <img src="CSS-MySite/cloud.svg" alt="clouds">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 col-lg-12">
+      <img class="mountain" src="CSS-MySite/mountain.svg" alt="mountain"> 
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Skill section -->
+
+<section id="skills_section">
+ 
+  <img class="main_profile" src="CSS-MySite/me.png" alt="me">
   
+    <h2 class="skills_heading">Hello</h2><hr>
+    <p>Lorem ipsum dolor sit amet, vitae volutpat, dui <br>conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+ 
+    <h2 class="skills_heading">My Hobbies</h2> <hr>
+  <div class="row">
+    <div class=" col-6 col-sm-6 col-md-4 col-lg-4">
+      <div class="card">
+        <div class="card-body">
+          <img class="main_profile" src="CSS-MySite/paint.png" alt="paint">
+          <h5 class="card-title">Doodling</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-sm-6 col-md-4 col-lg-4">
+      <div class="card">
+        <div class="card-body">
+          <img class="main_profile" src="CSS-MySite/badminton.png" alt="badminton">
+          <h5 class="card-title">Sports</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4 col-lg-4">
+      <div class="card">
+        <div class="card-body "style="">
+          <img class="main_profile" src="CSS-MySite/coding.png" alt="coding">
+          <h5 class="card-title">Coding</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+    </div>
+  </div> 
+</section>
+
+<!-- contact me -->
+
+<section id="contact_me">
+   
+  <div>
+    <h3>Get In Touch</h3><hr>
+   
+    <p class="contact-me-p">Lorem ipsum dolor sit amet, in quis,aenea<br>n amet. Phasellus sodales, tellus donec dui.<br> </p>
+    <div>
+        <a class="btn btn-dark btn-lg" href="mailto:harshshrivastava096@email.com">CONTACT ME</a>  
+    </div>  
+  </div>
+</div>
+</section>
+<!-- footer -->
+<div >
+<a class="footer-link" href="https://www.linkedin.com/in/harsh-shrivastava-4b5723228">LinkedIn | </a>
+<a class="footer-link" href="https://twitter.com/HarshSh71314303?t=9-wY2gTzZfcyxHD1vky1QQ&s=09">Twitter | </a>
+<a class="footer-link" href="index.html">Website</a>
+<p class="footer-p">© Harsh Shrivastava.</p>
+</div>
+</center>
+<!--  javascript  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
+
