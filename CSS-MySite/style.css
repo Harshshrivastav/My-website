@@ -41,6 +41,9 @@ width:5%;
 #skills_section,#contact_me{
     margin-top: 10px;
 }
+.card{
+   background-color: rgba(62, 148, 119, 0.877)!important;
+}
 p{
     letter-spacing: 2px;
     font-family: sans-serif;
